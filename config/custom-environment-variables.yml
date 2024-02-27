@@ -1,0 +1,7 @@
+es:
+  url: ES_URL
+  apiKey: ES_API_KEY
+  caFingerprint: ES_CA_FINGERPRINT
+  rejectUnauthorized:
+    __name: ES_REJECT_UNAUTHORIZED
+    __format: boolean

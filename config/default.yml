@@ -1,0 +1,5 @@
+es:
+  url: https://localhost:9200
+  apiKey:
+  caFingerprint:
+  rejectUnauthorized: false

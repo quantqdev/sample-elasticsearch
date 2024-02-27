@@ -1,0 +1,12 @@
+{
+	"type": "module",
+	"scripts": {
+		"start": "node index.js",
+		"start-with-env": "node --env-file=.env index.js"
+	},
+	"dependencies": {
+		"config": "^3.3.11",
+		"es8": "npm:@elastic/elasticsearch@8",
+		"js-yaml": "^4.1.0"
+	}
+}
