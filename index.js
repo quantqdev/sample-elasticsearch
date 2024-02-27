@@ -16,4 +16,16 @@ const client = new Client({
 
 client.info().then(console.log, console.log);
 
-client.search().then(console.log);
+client
+  .search({
+    index: 'books',
+    query: {
+      match: {
+        name: {
+          query: 'sno',
+          fuzziness: '0',
+        },
+      },
+    },
+  })
+  .then((data) => console.log(JSON.stringify(data, null, 2)));
